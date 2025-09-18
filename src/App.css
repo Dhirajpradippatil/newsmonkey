@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+/* Make badge hover work even with Bootstrap */
+.card .badge:hover {
+  background-color: #555 !important;
+  cursor: pointer;
+}
